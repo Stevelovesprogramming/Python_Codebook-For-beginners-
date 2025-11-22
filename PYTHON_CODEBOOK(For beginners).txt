@@ -1,0 +1,111 @@
+PYTHON_CODEBOOK(For beginners)
+This file was created with the guidance of ChatGPT
+⚠️DO NOT DELETE THIS FILE, PYTHON CODES ARE PRESERVED IN THIS FILE⚠️
+👉@ 2025 Steve, All rights reserved, Must give credit if rewritten
+Rules: Capitalization: DO NOT capitalize words when its not written like that in THIS CODEBOOK, MUST WRITE EXACTLY LIKE THIS CODEBOOK DOES IN ORDER FOR FUNCTIONALITY.
+Thank you for reading this Python codebook, we hope this helps you improve your coding skills, we have made it as readable as possible and if there are any errors you can email us at Stevecoolhell@gmail.com (Sorry for the inconvenience if we respond too slow, our emails dont get notified, your request could take a few months)
+BASICS:
+1️⃣WRITE: 
+🏗️The structure: print("ADD TEXT HERE")
+example: print("Hello World!")
+2️⃣VARIABLES (to save stuff for later): 
+🏗️The structure: ⚠️Important⚠️: must store it as text first, for example: (This is an instruction, not a real example👉)Steve = TEXT HERE and then you can move onto example 2
+ADD THE NAME OF THE THING YOU WANNA SAVE = ADD THE THING YOU WANNA SAVE IT INTO
+Example 2: Steve = "Your owner"
+name = Steve
+age = 11
+How to use them: print(NAME OF PRODUCT, "THE NEXT WORD")
+Example: print(name, "is", age, "years old")
+3️⃣INPUT (lets me type in text (like print)): 
+🏗️The structure: user_input = input("ADD TEXT HERE")
+Example: user_input = input("Hello! type something!:") ⚠️Important⚠️: This asks you to put something into the input, type something in the output spot where your text showed up and then press enter, then you can proceed to example 2.
+How to use: print("ADD TEXT HERE,", user_input)
+Example 2: print("Hello! Nice to meet you,",user_input)
+4️⃣BASIC MATH CALCULATIONS:⚠️Important⚠️: You must set your desired chosen letter to a number
+Example: x = 10
+y = 15
+Symbols and their meaning: "+" means to add, "-" means to subtract/minus, "*" means to multiply/times, "/" means to divide, "**" means to make the number in front an exponent of the number behind the "**"
+🏗️The structure: print(YOUR DESIRED CHOSEN LETTER THEN SYMBOL HERE AND THEN YOUR OTHER CHOSEN LETTER)
+How to use: print(x * y)
+Example 2: Its the same thing as the "How to use" section
+5️⃣LISTS(Lets you store stuff): ⚠️Important⚠️: It lets you save many items in ONE CONTAINER
+🏗️The structure: LIST NAME HERE = ["ITEM 1", "ITEM 2", "ITEM 3",...]
+⚠️Important⚠️: If it includes letters in the name of the item, add quotes, if its just numbers, no need
+How to use: 
+🔑Access the item by its position: print(LIST NAME YOU PUT FOR IT[THE ORDER OF THE ITEMS YOU PUT]) 
+⚠️VERY IMPORTANT AT THIS PART⚠️: At the part "THE ORDER OF THE ITEMS YOU PUT" it means that whatever you put first in the container then it would have a number like this explanation down here👇
+💎Clear explanation💎: it means that each item you put has an order, like in "The structure" section, item 1 is the first item to be put in so its number is gonna be 0(its because Python lets it start with the number 0) and then whatever you decide to put next then its number will be added by 1 from the last. Next part of the "How to use" section down here👇
+➕Add an item (adds it to the end, not the start of the order): YOUR LIST NAME.append("NEW ITEM'S NAME")
+print(LIST NAME)
+➖Remove an item: YOUR LIST NAME.remove("THE NAME OF THE ITEM THAT YOU WANT TO REMOVE")
+print(YOUR LIST NAME)
+Example:
+🔑Access item: print(Names[5])
+➕Add item: Names.append("Hubert")
+➖Remove item: Names.remove("Sophia")
+6️⃣LOOPS (lets you repeat actions automatically) ⚠️Important⚠️: Use loops to do stuff multiple times without writing it again and again:
+🏗️The structure(To start loop): for ITEM in LIST NAME:
+print(item)
+How to use: for fruit in fruits:
+print(fruit)
+Result: the first item's or next item's name
+For those who understand, heres a 💎Clear explanation💎: The list is ["apple", "banana", "cherry"]
+First loop: fruit = "apple" ➡️ prints "apple"
+Second loop: fruit = "banana" ➡️ prints "banana"
+Third loop: fruit = "cherry" ➡️ prints "cherry"
+Heres the next part of "The structure" section👇
+🏗️The structure(To change the loop): count = YOUR DESIRED NUMBER TO START
+while count < THE NUMBER YOU WANT IT TO BE LOWER THAN:
+print("THE TITLE OF THE LOOP:", count)
+count += YOUR DESIRED NUMBER OF HOW MUCH IT PLUS'S EACH TIME
+Result: TITLE: YOUR STARTING NUMBER
+TITLE: NEXT NUMBER
+TITLE: NEXT NUMBER
+TITLE: TO UNTIL THE LAST NUMBER YOU CHOSE IT TO STOP AT
+Example: 
+Start the loop: The list is: fruits =["apple", "banana", "cherry"]
+for fruit in fruits:
+print(fruit)
+Apple (if its the first loop)
+Change the loop: count = 0
+while count < 3:
+print("Counting:", count)
+count += 1
+Counting: 0
+Counting: 1
+Counting: 2
+7️⃣IF STATEMENTS(Lets your code decide what happens): 
+🏗️The structure(Without else): if CONDITION:
+Result: action happens here
+🏗️The structure(With else): If CONDITION:
+Result: action happens here if it is TRUE
+else:
+Result: action happens here if it is FALSE
+Example: age = 11
+if age >= 10:
+print("You are allowed to access this website")
+else:
+print("You are not allowed to access this website")
+Result: You are allowed to access this website
+💎Clear explanation💎: It checks the CONDITION, If it is TRUE, the code runs the action under "if", If it is FALSE, the code runs the action under "else"
+8️⃣RANDOM(you know what this means, if not then it means to let your code choose something randomly):
+🏗️The structure: ⚠️Important⚠️: You must put this FIRST on top of YOUR FILE or it WILL NOT work:
+import random
+Simple explanation: It lets Python make random numbers or pick a random item inside of a list 
+🏗️The structure(random numbers): number = random.randint(YOUR CHOSEN LOWEST NUMBER, YOUR CHOSEN HIGHEST NUMBER)
+Example: import random
+number = random.randint(1, 20)
+print("Your random number is", number)
+Result: It will print a random number from 1 to 20
+🏗️The structure(random item from your list): random.choice(YOUR LIST NAME)
+Example: import random
+vegetables = ["carrot", "tomato", "lettuce"]
+print(random.choice(vegtables))
+Result: picks a random item in your list
+💎Clear explanation💎: It lets you choose RANDOM numbers or items in your list without a set ORDER
+
+
+
+
+
+
